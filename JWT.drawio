@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="第 1 页" id="HGwFlrwKFwQhCayAWHU2">
+    <mxGraphModel dx="1050" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dctVK4vF-EZdwIn3SZnd-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;JWT&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon;fillColor=#FFFF00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="374" y="128" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dctVK4vF-EZdwIn3SZnd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="dctVK4vF-EZdwIn3SZnd-8" target="dctVK4vF-EZdwIn3SZnd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dctVK4vF-EZdwIn3SZnd-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;JWS&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="215" y="317" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dctVK4vF-EZdwIn3SZnd-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;JWE&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="532" y="317" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dctVK4vF-EZdwIn3SZnd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.506;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="dctVK4vF-EZdwIn3SZnd-9" target="dctVK4vF-EZdwIn3SZnd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
