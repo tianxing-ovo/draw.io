@@ -1,14 +1,55 @@
 # draw.io
 
-一个用于沉淀后端知识点图示的 `draw.io` 仓库，当前内容主要覆盖 `JUC`、`JVM`、`MySQL` 和 `JWT` 相关主题
+一个用于沉淀后端与计算机基础知识图示的 `draw.io` 仓库。当前共收录 `16` 张 `.drawio` 图，覆盖 `JUC`、`JVM`、`MySQL`、`Network` 和 `JWT` 等主题，适合面试复习、知识梳理和分享讲解。
 
 ## 仓库定位
 
-这个仓库不是可运行项目，而是一个按专题整理的图示集合，适合用于：
+这个仓库不是可运行项目，而是一组按主题整理的图示资产，主要用于：
 
-- 面试复习时快速回顾知识结构
-- 学习过程中将抽象概念转化为图示
-- 分享或讲解并发、JVM、MySQL 等核心原理
+- 将抽象概念转化为图示，降低理解门槛
+- 在面试复习时快速回顾知识结构
+- 为讲解、分享、笔记整理提供统一图示素材
+
+## 内容索引
+
+### JUC
+
+位于 [`juc`](./juc) 目录，当前包含：
+
+- 线程状态：`线程状态-Java.drawio`、`线程状态-操作系统.drawio`
+- 并发原理：`Monitor.drawio`、`park原理.drawio`
+- 线程安全示例：`线程不安全-正数.drawio`、`线程不安全-负数.drawio`
+- 设计模式：
+  - [`保护性暂停模式.drawio`](./juc/设计模式/保护性暂停模式.drawio)
+  - [`两阶段终止模式.drawio`](./juc/设计模式/两阶段终止模式.drawio)
+  - [`生产者消费者模式.drawio`](./juc/设计模式/生产者消费者模式.drawio)
+
+### JVM
+
+位于 [`jvm`](./jvm) 目录，当前包含：
+
+- [`对象头-32位虚拟机.drawio`](./jvm/对象头-32位虚拟机.drawio)
+
+### MySQL
+
+位于 [`mysql`](./mysql) 目录，当前包含：
+
+- [`BTree.drawio`](./mysql/BTree.drawio)
+- [`B+Tree.drawio`](./mysql/B+Tree.drawio)
+- [`水平拆分.drawio`](./mysql/水平拆分.drawio)
+- [`垂直拆分.drawio`](./mysql/垂直拆分.drawio)
+
+### Network
+
+位于 [`network`](./network) 目录，当前包含：
+
+- [`BIO.drawio`](./network/BIO.drawio)
+
+### JWT
+
+仓库根目录当前包含：
+
+- [`JWT.drawio`](./JWT.drawio)
 
 ## 目录结构
 
@@ -28,59 +69,51 @@
 │     └─ 生产者消费者模式.drawio
 ├─ jvm
 │  └─ 对象头-32位虚拟机.drawio
-└─ mysql
-   ├─ BTree.drawio
-   ├─ B+Tree.drawio
-   ├─ 垂直拆分.drawio
-   └─ 水平拆分.drawio
+├─ mysql
+│  ├─ BTree.drawio
+│  ├─ B+Tree.drawio
+│  ├─ 垂直拆分.drawio
+│  └─ 水平拆分.drawio
+└─ network
+   └─ BIO.drawio
 ```
-
-## 当前内容
-
-### JUC
-
-- 线程状态在 Java 与操作系统层面的差异
-- `Monitor` 与 `park/unpark` 相关原理
-- 线程不安全示例
-- 常见并发设计模式：
-  - 保护性暂停模式
-  - 两阶段终止模式
-  - 生产者消费者模式
-
-### JVM
-
-- 32 位虚拟机场景下的对象头结构
-
-### MySQL
-
-- `BTree` 与 `B+Tree`
-- 水平拆分与垂直拆分
-
-### JWT
-
-- `JWT` 基本结构图
 
 ## 如何查看和编辑
 
 推荐使用以下任一种方式打开 `.drawio` 文件：
 
 1. 使用 [diagrams.net](https://app.diagrams.net/) 在线打开本地文件
-2. 使用 diagrams.net Desktop 打开并编辑
-3. 使用支持 draw.io 的 IDE 插件进行预览
+2. 使用 diagrams.net Desktop 本地打开并编辑
+3. 使用支持 draw.io 的 IDE 插件进行预览和修改
 
 常见操作流程：
 
 1. 打开对应的 `.drawio` 文件
-2. 修改图形、连接线、说明文字
+2. 修改图形、连接线、颜色和说明文字
 3. 按需导出为 `PNG`、`SVG` 或 `PDF`
 
-## 维护建议
+## 适用场景
 
-- 按主题新建目录，避免所有图堆在根目录
-- 文件名尽量直接表达主题，便于检索
-- 优先保持一张图只讲清一个核心概念
-- 如果同一主题持续扩展，建议拆为多张图而不是无限追加
+- 面试前按专题快速复盘
+- 学习新知识时先搭建整体框架，再补充细节
+- 给博客、分享稿、课程讲义补充图示
+- 团队内部交流时统一术语和结构表达
+
+## 维护约定
+
+- 新图优先按专题归档到对应目录
+- 文件名尽量直接表达主题，避免含糊命名
+- 一张图优先只讲清一个核心概念
+- 同一主题持续扩展时，优先拆成多张图而不是无限追加
+- 提交前建议导出预览图自查一次，确认文字和连线布局没有错位
+
+## 后续可扩展方向
+
+- `network` 下继续补充 `NIO`、`Netty`、`TCP/IP` 相关图示
+- `jvm` 下补充类加载、GC、运行时数据区等主题
+- `mysql` 下补充索引失效、事务隔离、MVCC 等主题
+- 根目录可以增加按专题汇总的导航图或总览图
 
 ## 许可证
 
-本仓库基于 [Apache License 2.0](LICENSE) 开源
+本仓库基于 [Apache License 2.0](./LICENSE) 开源。
