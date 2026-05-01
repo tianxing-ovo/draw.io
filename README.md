@@ -1,6 +1,6 @@
 # draw.io
 
-一个用于沉淀后端与计算机基础知识图示的 `draw.io` 仓库。当前共收录 `16` 张 `.drawio` 图，覆盖 `JUC`、`JVM`、`MySQL`、`Network` 和 `JWT` 等主题，适合面试复习、知识梳理和分享讲解。
+一个用于沉淀后端与计算机基础知识图示的 `draw.io` 仓库。当前共收录 `19` 张 `.drawio` 图，覆盖 `Elasticsearch`、`JUC`、`JVM`、`JWT`、`MySQL` 和 `Network` 等主题，适合面试复习、知识梳理和分享讲解。
 
 ## 仓库定位
 
@@ -12,13 +12,21 @@
 
 ## 内容索引
 
+### Elasticsearch
+
+位于 [`elasticsearch`](./elasticsearch) 目录，当前包含：
+
+- [`同步调用.drawio`](./elasticsearch/同步调用.drawio)
+- [`异步通知.drawio`](./elasticsearch/异步通知.drawio)
+- [`监听binlog.drawio`](./elasticsearch/监听binlog.drawio)
+
 ### JUC
 
 位于 [`juc`](./juc) 目录，当前包含：
 
-- 线程状态：`线程状态-Java.drawio`、`线程状态-操作系统.drawio`
-- 并发原理：`Monitor.drawio`、`park原理.drawio`
-- 线程安全示例：`线程不安全-正数.drawio`、`线程不安全-负数.drawio`
+- 线程状态：[`线程状态-Java.drawio`](./juc/线程状态-Java.drawio)、[`线程状态-操作系统.drawio`](./juc/线程状态-操作系统.drawio)
+- 并发原理：[`Monitor.drawio`](./juc/Monitor.drawio)、[`park原理.drawio`](./juc/park原理.drawio)
+- 线程安全示例：[`线程不安全-正数.drawio`](./juc/线程不安全-正数.drawio)、[`线程不安全-负数.drawio`](./juc/线程不安全-负数.drawio)
 - 设计模式：
   - [`保护性暂停模式.drawio`](./juc/设计模式/保护性暂停模式.drawio)
   - [`两阶段终止模式.drawio`](./juc/设计模式/两阶段终止模式.drawio)
@@ -34,10 +42,10 @@
 
 位于 [`mysql`](./mysql) 目录，当前包含：
 
-- [`BTree.drawio`](./mysql/BTree.drawio)
 - [`B+Tree.drawio`](./mysql/B+Tree.drawio)
-- [`水平拆分.drawio`](./mysql/水平拆分.drawio)
+- [`BTree.drawio`](./mysql/BTree.drawio)
 - [`垂直拆分.drawio`](./mysql/垂直拆分.drawio)
+- [`水平拆分.drawio`](./mysql/水平拆分.drawio)
 
 ### Network
 
@@ -54,28 +62,34 @@
 ## 目录结构
 
 ```text
-.
-├─ JWT.drawio
+draw.io
+├─ elasticsearch
+│  ├─ 同步调用.drawio
+│  ├─ 异步通知.drawio
+│  └─ 监听binlog.drawio
 ├─ juc
+│  ├─ 设计模式
+│  │  ├─ 两阶段终止模式.drawio
+│  │  ├─ 保护性暂停模式.drawio
+│  │  └─ 生产者消费者模式.drawio
 │  ├─ Monitor.drawio
 │  ├─ park原理.drawio
 │  ├─ 线程不安全-正数.drawio
 │  ├─ 线程不安全-负数.drawio
 │  ├─ 线程状态-Java.drawio
-│  ├─ 线程状态-操作系统.drawio
-│  └─ 设计模式
-│     ├─ 两阶段终止模式.drawio
-│     ├─ 保护性暂停模式.drawio
-│     └─ 生产者消费者模式.drawio
+│  └─ 线程状态-操作系统.drawio
 ├─ jvm
 │  └─ 对象头-32位虚拟机.drawio
 ├─ mysql
-│  ├─ BTree.drawio
 │  ├─ B+Tree.drawio
+│  ├─ BTree.drawio
 │  ├─ 垂直拆分.drawio
 │  └─ 水平拆分.drawio
-└─ network
-   └─ BIO.drawio
+├─ network
+│  └─ BIO.drawio
+├─ JWT.drawio
+├─ LICENSE
+└─ README.md
 ```
 
 ## 如何查看和编辑
@@ -109,9 +123,10 @@
 
 ## 后续可扩展方向
 
-- `network` 下继续补充 `NIO`、`Netty`、`TCP/IP` 相关图示
+- `elasticsearch` 下补充索引设计、分词、搜索流程、集群架构等主题
 - `jvm` 下补充类加载、GC、运行时数据区等主题
 - `mysql` 下补充索引失效、事务隔离、MVCC 等主题
+- `network` 下继续补充 `NIO`、`Netty`、`TCP/IP` 相关图示
 - 根目录可以增加按专题汇总的导航图或总览图
 
 ## 许可证

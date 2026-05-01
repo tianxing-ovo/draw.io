@@ -1,0 +1,49 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="1MXVoOgJ-Ca5TVNGmBrN">
+    <mxGraphModel dx="2460" dy="1252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-4" edge="1" parent="1" source="DqK3wYtnN-0XSD6qA1KW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DqK3wYtnN-0XSD6qA1KW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" value="" vertex="1">
+          <mxGeometry height="46" width="46" x="-153" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-7" edge="1" parent="1" source="DqK3wYtnN-0XSD6qA1KW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DqK3wYtnN-0XSD6qA1KW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;酒店管理服务&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="17" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;新增酒店&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-81" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;酒店搜索服务&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;MySQL&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="124" x="15" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-9" edge="1" parent="1" source="DqK3wYtnN-0XSD6qA1KW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="DqK3wYtnN-0XSD6qA1KW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Elasticsearch&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="124" x="351" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-11" edge="1" parent="1" source="DqK3wYtnN-0XSD6qA1KW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="DqK3wYtnN-0XSD6qA1KW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.写入数据库&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="97" x="-29" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2.调用更新索引数据接口&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="165" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="DqK3wYtnN-0XSD6qA1KW-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;3.更新Elasticsearch&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="155" x="268" y="175" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
